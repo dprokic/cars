@@ -19,6 +19,7 @@ def upgrade():
     op.create_table(
         'manufacturer',
         sa.Column('id', sa.Integer, nullable=False),
+        sa.Column('name', sa.Text, nullable=False),
         sa.PrimaryKeyConstraint('id')
     )
     op.create_table(
