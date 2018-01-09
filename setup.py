@@ -12,6 +12,7 @@ setup(
         'SQLAlchemy',
         'alembic',
         'psycopg2',
+        'scrapy',
     ]
 
 )
